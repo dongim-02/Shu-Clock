@@ -1,0 +1,14 @@
+# 개인 설정 (실제 MAC, 나중에 추가될 Wi-Fi/서버 정보)
+config.h
+
+# 빌드 산출물
+build/
+.pio/
+*.elf
+*.bin
+*.hex
+
+# 에디터 / OS
+.vscode/
+.DS_Store
+Thumbs.db

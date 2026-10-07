@@ -1,0 +1,24 @@
+# 비밀 정보 (어느 폴더에 있든 제외)
+**/secrets.h
+**/config.h
+.env
+**/.env
+.env.*
+!.env.example
+!**/secrets.example.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 빌드 / 에디터 / OS
+build/
+.pio/
+*.elf
+*.bin
+*.hex
+.vscode/
+.DS_Store
+Thumbs.db

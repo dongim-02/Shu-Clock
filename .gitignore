@@ -1,0 +1,24 @@
+# secrets
+**/secrets.h
+**/config.h
+.env
+**/.env
+.env.*
+!.env.example
+!**/secrets.example.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# build / editor / OS
+build/
+.pio/
+*.elf
+*.bin
+*.hex
+.vscode/
+.DS_Store
+Thumbs.db
